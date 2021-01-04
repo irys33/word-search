@@ -71,8 +71,10 @@ def fill_empty(word_table: list[list[str]]) -> list[list[str]]:
 if __name__ == "__main__":
     # TODO add input word list
     word_list = ['オオカミ', 'ライオン', 'タマリン', 'カワウソ', 'ヤマネコ', 'イヌ', 'ネコ', 'ネズミ']
+    print('input table sise (ex. {row} {col})')
     table_size_row, table_size_col = map(int, input().split())
     word_table = create_word_table(table_size_row, table_size_col)
+    print('input word (ex. {word_size})')
     word_size = int(input())
     insert_word('オオカミ', word_table, word_size)
     insert_word('ライオン', word_table, word_size)
