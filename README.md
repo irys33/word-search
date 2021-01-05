@@ -1,2 +1,2 @@
-## word_search
+## word-search
 simple word search game
